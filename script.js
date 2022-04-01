@@ -11,9 +11,11 @@ console.log('Length after push:',newlen)
 poppedout=myArray.pop();
 
 // reassigning individual item values using indexing 
+// assign value to the last position using length property
 let colors = ["red", "blue", "green"];
 colors[2]='yellow';
 colors[3]='green';
+colors[colors.length]='rainbows'
 
 //declaring arrays with const keyword
 const numbers=[1,2,3,4];
