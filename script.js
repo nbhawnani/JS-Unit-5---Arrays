@@ -15,7 +15,9 @@ poppedout=myArray.pop();
 let colors = ["red", "blue", "green"];
 colors[2]='yellow';
 colors[3]='green';
-colors[colors.length]='rainbows'
+colors[colors.length]='rainbows';
+colors.sort(); //alphabetical sort. not to be used with numbers. only strings.
+
 
 //declaring arrays with const keyword
 const numbers=[1,2,3,4];
