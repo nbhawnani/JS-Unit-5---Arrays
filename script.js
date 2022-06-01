@@ -3,6 +3,11 @@ myArray=['a','b','c']
 
 
 
+
+
+
+
+
 //push and pop : add and remove items at the end of the array
 // push - returns new length of the array
 // pop - returns which item was popped out from the array
@@ -19,6 +24,7 @@ colors[2]='yellow';
 colors[3]='green';
 colors[colors.length]='rainbows';
 colors.sort(); //alphabetical sort. not to be used with numbers. only strings.
+
 
 
 //declaring arrays with const keyword
@@ -39,6 +45,14 @@ document.getElementById("demo3").innerHTML=colors[2]+colors[3];
 document.getElementById("demo4").innerHTML=colors + "<br> length is:"+colors[-1];
 
 /*
+The shift() method removes the first item of an array.
+The shift() method changes the original array.
+
+The shift() method returns the shifted element.
+The unshift() method adds new elements to the beginning of an array.
+
+The unshift() method overwrites the original array. adds 1 or more elements to the beginning of the array.
+
 //shift
 let array1 = [1,2,3,4,5,6]
 console.log('original array:',array1);
@@ -60,6 +74,18 @@ console.log('after 2nd splice:',array2);
 */
 
 /*
+The splice() method adds and/or removes array elements.
+The splice() method overwrites the original array.
+
+*/
+
+/*
+The slice() method returns selected elements in an array, as a new array.
+
+The slice() method selects from a given start, up to a (not inclusive) given end.
+
+The slice() method does not change the original array.
+*/
 //slice - extracts items from the array to create a new one 
 let array3 = ['a','b','c','d','e','f']
 console.log('original array3:',array3);
@@ -67,7 +93,7 @@ let array4=array3.slice(1,3)
 console.log('after slice array3:',array3);
 console.log('after slice array4:',array4);
 
-*/
+
 
 
 //map method
